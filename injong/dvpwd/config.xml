@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<SYSTEM type="ACTIVE" runmode="FORGROUND" title="GLDS Gateway" loopdly="10" />
+<CONFIG system="SHM" enable="0" key="7813" size="1024" count="1024" delay="3000" />
+<CONFIG system="SHM_S" enable="0" key="1810" size="4" count="1024" delay="3000" />
+<CONFIG system="GPSM" enable="0" port="/dev/ttyO1" baudrate="9600" databit="8" stopbit="1" paritybit="0" blockmode="0" delay="3000" />
+<CONFIG system="WFM" enable="0" port="/dev/ttyO1" baudrate="9600" databit="8" stopbit="1" paritybit="0" blockmode="1" sdelay="2000" ldelay="8000" ap_ssid="dvl" ap_pw="dvl@d510" est="CLIENT" estid="0" ept="TCP" esi="192.168.0.2" esp="2654" />
+<CONFIG system="SERIAL" enable="0" port="/dev/ttyS0" baudrate="115200" databit="8" stopbit="1" paritybit="0" blockmode="0" echomode="1" delay="3000" />
+<CONFIG system="PACKET" enable="0" ifname="enp3s0" delay="3000" />
+<CONFIG system="WEBSOCKET" enable="1" ip="127.0.0.1" port="7810" type="SERVER" echomode="0" delay="3000" />
+<CONFIG system="WEBSOCKET_S" enable="0" ip="127.0.0.1" port="7811" type="SERVER" echomode="1" delay="3000" />
+<CONFIG system="HTTP" enable="0" delay="3000" ip="192.168.0.7" port="80" uri="/a1/index.html" />
+<CONFIG system="HTTPD" enable="1" delay="3000" ip="192.168.0.7" port="80" home="/home/dvl/injong/ysdn/core/www" index="index.html" />
+<CONFIG system="SOCKET" enable="0" ip="127.0.0.1" port="7870" type="SERVER" protocol="TCP" cast="UNICAST"  echomode="0" delay="3000" />
+<CONFIG system="SSL" enable="0" ip="15.73.200.26" ipx="https://www.hp.com" port="443" type="CLIENT" delay="3000" />

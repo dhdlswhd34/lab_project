@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<data name="SwitchInformation" enable="0" dhcpmod="1" ipdata="39" submask="15" gtwaddr="15" />
+<data name="FIRMWARE" enable="0" ver="1.00.1" />
+<data name="PORT" enable="0" port="" status="" security="" chntype="" />
+<data name="AI" enable="0" port="" dttime="" packettyp="" abnmsts="1"/>
+<data name="SEED" enable="0" mode="" />
+<data name="ARIA" enable="0" mode="" />
+<data name="LEA" enable="0" mode="" />
+<data name="HIGHT" enable="0" mode="" />
+<data name="HMAC" enable="0" mode="" />
+<data name="SHA256" enable="0" mode="" />
+<data name="LSH" enable="0" mode="" />
+<data name="HASHDRBG" enable="0" mode="" />
+<data name="OPENFLOW" enable="0" opfsts="0" ctrip="" ctrport="" fallsts="0" opfver="1" status="" tbls="" flows="" tblokp="" tbl_mch="" />
+<data name="FLOWS" enable="0" flwmch="" inport="" attrtblid="" cookie="" proty="" drt="" hrdtime="" idletime="" bytecnt="" pkcnt="" lstmch="" idsaplact="" optport=""/>
+<data name="METERS" enable="0" tblid="" cookie="" proty="" drt="" hardtime="" idletime="" />
+<data name="ACTIVEPORTLIST" enable="0" activeport="0"  />
+<data name="SECURITYMODE" enable="0" secopt="" />
+<data name="ANOMALYPACKET" enable="0" anomaly="" anomalycnt="" wrom="" wromcnt="" ddos="" ddoscnt="" />
+<data name="TODAYREVPACK" enable="0" hour="" />
+
