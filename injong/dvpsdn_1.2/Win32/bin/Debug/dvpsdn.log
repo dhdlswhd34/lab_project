@@ -1,0 +1,93 @@
+﻿  wmtif.c
+z:\ysdn\core\dvpsdn\wrc\wmtif.c(9): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+z:\ysdn\core\dvpsdn\wrc\wmtif.c(76): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+z:\ysdn\core\dvpsdn\wrc\wmtif.c(77): warning C4101: 'hmod' :참조되지 않은 지역 변수입니다.
+  wcommon.c
+z:\ysdn\core\dvpsdn\wrc\wcommon.c(98): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+z:\ysdn\core\dvpsdn\wrc\wcommon.c(107): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1465): note: 'vsprintf' 선언을 참조하십시오.
+z:\ysdn\core\dvpsdn\wrc\wcommon.c(173): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1465): note: 'vsprintf' 선언을 참조하십시오.
+  xm.c
+z:\ysdn\core\dvpsdn\inc\mhttp.h(7): warning C4005: 'MAX_BUF_SZ': 매크로 재정의
+  z:\ysdn\core\dvpsdn\inc\msocket.h(7): note: 'MAX_BUF_SZ'의 이전 정의를 참조하십시오.
+z:\ysdn\core\dvpsdn\inc\mshm.h(7): warning C4005: 'MAX_BUF_SZ': 매크로 재정의
+  z:\ysdn\core\dvpsdn\inc\mhttp.h(7): note: 'MAX_BUF_SZ'의 이전 정의를 참조하십시오.
+z:\ysdn\core\dvpsdn\src\xm.c(93): warning C4013: 'init_rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  mxml.c
+z:\ysdn\core\dvpsdn\src\mxml.c(19): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mxml.c(61): warning C4013: 'xmsgq_set'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+z:\ysdn\core\dvpsdn\src\mxml.c(148): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mxml.c(153): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mxml.c(160): warning C4101: 's' :참조되지 않은 지역 변수입니다.
+z:\ysdn\core\dvpsdn\src\mxml.c(192): warning C4013: 'get_prefix'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+z:\ysdn\core\dvpsdn\src\mxml.c(188): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+z:\ysdn\core\dvpsdn\src\mxml.c(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+z:\ysdn\core\dvpsdn\src\mxml.c(218): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+z:\ysdn\core\dvpsdn\src\mxml.c(223): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+  mwebsocket.c
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(11): warning C4013: 'fprint_buffer'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(20): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(82): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(92): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(103): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(127): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(132): warning C4033: 'on_websocket_read'은(는) 값을 반환해야 합니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(165): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(172): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(152): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(147): warning C4101: 'url' :참조되지 않은 지역 변수입니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(202): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(208): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(210): warning C4013: 'xmsgq_set'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(191): warning C4101: 'host' :참조되지 않은 지역 변수입니다.
+  msocket.c
+z:\ysdn\core\dvpsdn\src\msocket.c(15): warning C4013: 'fprint_buffer'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+z:\ysdn\core\dvpsdn\src\msocket.c(24): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\msocket.c(41): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\msocket.c(91): warning C4013: 'xmsgq_set'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+z:\ysdn\core\dvpsdn\src\msocket.c(143): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\msocket.c(165): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\msocket.c(174): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\msocket.c(186): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+z:\ysdn\core\dvpsdn\src\msocket.c(240): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  mserial.c
+z:\ysdn\core\dvpsdn\src\mserial.c(229): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(230): warning C4013: 'fprint_buffer'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(238): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(239): warning C4013: 'xmsgq_set'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(245): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(250): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(299): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(334): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(348): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(318): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(364): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(367): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(357): warning C4101: 'e' :참조되지 않은 지역 변수입니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(381): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(384): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+z:\ysdn\core\dvpsdn\src\mserial.c(400): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+  mhttp.c
+z:\ysdn\core\dvpsdn\src\mhttp.c(14): warning C4013: 'xmsgq_set'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+z:\ysdn\core\dvpsdn\src\mhttp.c(24): warning C4013: 'fprint_buffer'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+z:\ysdn\core\dvpsdn\src\mhttp.c(46): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+z:\ysdn\core\dvpsdn\src\mhttp.c(42): warning C4101: 'kv' :참조되지 않은 지역 변수입니다.
+z:\ysdn\core\dvpsdn\src\mhttp.c(41): warning C4101: 'hdr' :참조되지 않은 지역 변수입니다.
+z:\ysdn\core\dvpsdn\src\mhttp.c(40): warning C4101: 'url' :참조되지 않은 지역 변수입니다.
+z:\ysdn\core\dvpsdn\src\mhttp.c(104): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mhttp.c(97): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+z:\ysdn\core\dvpsdn\src\mhttp.c(118): warning C4003: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 부족합니다.
+z:\ysdn\core\dvpsdn\src\mhttp.c(136): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mhttp.c(142): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+z:\ysdn\core\dvpsdn\src\mhttp.c(154): warning C4002: 'SYSTEM_LOG' 매크로의 실제 매개 변수가 너무 많습니다.
+  코드를 생성하고 있습니다...
+z:\ysdn\core\dvpsdn\src\mwebsocket.c(140): warning C4715: 'on_websocket_read': 모든 제어 경로에서 값을 반환하지는 않습니다.
+z:\ysdn\core\dvpsdn\src\xm.c(59): warning C4716: 'top_status': 값을 반환해야 합니다.
+LINK : fatal error LNK1104: 'mtif.lib' 파일을 열 수 없습니다.

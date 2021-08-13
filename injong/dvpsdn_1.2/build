@@ -1,0 +1,40 @@
+#! /bin/bash
+###############################################################################
+
+if [ $1 == "all" -o $1 == "arm" ]
+then
+CROSS_COMPILE=yes ARCH_TYPE=LINUX_ARM make dir;
+CROSS_COMPILE=yes ARCH_TYPE=LINUX_ARM make clean;
+CROSS_COMPILE=yes ARCH_TYPE=LINUX_ARM make all;
+\cp -rfp LINUX_ARM/bin/* ../../pkg/d/sbin
+\cp -rfp LINUX_ARM/bin/* ../../pkg/e/sbin
+fi
+
+if [ $1 == "all" -o $1 == "armhf" ]
+then
+CROSS_COMPILE=yes ARCH_TYPE=LINUX_ARMHF make dir;
+CROSS_COMPILE=yes ARCH_TYPE=LINUX_ARMHF make clean;
+CROSS_COMPILE=yes ARCH_TYPE=LINUX_ARMHF make all;
+\cp -rfp LINUX_ARMHF/bin/* ../../pkg/d/sbin
+\cp -rfp LINUX_ARMHF/bin/* ../../pkg/e/sbin
+fi
+
+
+if [ $1 == "all" -o $1 == "x32" ]
+then
+CLFAGS=-m32 CXXFLAGS=-m32 LDFLAGS=-m32 CROSS_COMPILE=no ARCH_TYPE=LINUX32 make dir;
+CLFAGS=-m32 CXXFLAGS=-m32 LDFLAGS=-m32 CROSS_COMPILE=no ARCH_TYPE=LINUX32 make clean;
+CLFAGS=-m32 CXXFLAGS=-m32 LDFLAGS=-m32 CROSS_COMPILE=no ARCH_TYPE=LINUX32 make all;
+\cp -rfp LINUX32/bin/* ../../pkg/d/sbin
+\cp -rfp LINUX32/bin/* ../../pkg/e/sbin
+fi
+
+if [ $1 == "all" -o $1 == "x64" ]
+then
+CLFAGS=-m64 CXXFLAGS=-m64 LDFLAGS=-m64 CROSS_COMPILE=no ARCH_TYPE=LINUX64 make dir;
+CLFAGS=-m64 CXXFLAGS=-m64 LDFLAGS=-m64 CROSS_COMPILE=no ARCH_TYPE=LINUX64 make clean;
+CLFAGS=-m64 CXXFLAGS=-m64 LDFLAGS=-m64 CROSS_COMPILE=no ARCH_TYPE=LINUX64 make all;
+\cp -rfp LINUX64/bin/* ../../pkg/d/sbin
+\cp -rfp LINUX64/bin/* ../../pkg/e/sbin
+fi
+
